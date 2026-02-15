@@ -28,9 +28,9 @@ years_of_exp = st.number_input("Years of Experience",0 ,40)
 df = pd.dataFrame({
     "Age":[age],
     "Gender":[gender],
-    "Education Level":[education level],
-    "Job Title":[job title],
-    "Years of Experience":[years of experience]
+    "Education Level":[education_level],
+    "Job Title":[job_title],
+    "Years of Experience":[years_of_exp]
 })
 
 if st.button("Predict"):
